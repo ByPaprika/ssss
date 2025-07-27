@@ -1,0 +1,20 @@
+# main
+CLIENT_URL=http://localhost:5173
+# CLIENT_URL=https://0374-178-67-25-84.ngrok-free.app
+BOT_TOKEN=6744843291:AAHAoB6UFWM7tJyH2YRKpDN9yjMlyp8X_Zo
+MONGO_DB_URL=mongodb+srv://snobou12:HjdmoECzfmoKJJI1@cluster0.dfyo2f9.mongodb.net/?retryWrites=true&w=majority
+PORT=8080
+
+
+
+# aaio
+AAIO_PAY_LINK=https://aaio.so/merchant/pay
+AAIO_INFO_PAY_LINK=https://aaio.so/api/info-pay
+AAIO_MERCHANT_ID=8b5c71f8-34d8-471b-9ba0-ee2c0127c48e
+AAIO_SECRET_KEY_1=16eda5bf38f08d19c1df37fe768c76c6
+AAIO_SECRET_KEY_2=b89559a5a0c51b98bd828e7eda3bb760
+AAIO_API_KEY=ZDRlMmRiY2UtNTk2Mi00NTI4LTk3MWQtZjk0NDk0NjM3ZjMzOkNRR0soK0AyclNeb0pNS1VoVF53KXcmNDZQQFJKaHJP
+
+# jwt
+JWT_ACCESS_SECRET=jwt-access-spotitime-qwertasdf12344
+JWT_REFRESH_SECRET=jwt-refresh-spotitime-qwerasdf12344
