@@ -71,6 +71,7 @@ class Bot {
 		this.bot.launch();
 	}
 }
+
 const bot = new Bot(new ConfigService());
 
 export default bot;

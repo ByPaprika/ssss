@@ -5,6 +5,8 @@ import { IBotContext } from "../context/context.interface";
 import { Action } from "./action.class";
 import { CallbackQuery } from "@telegraf/types";
 import { resolve } from "path";
+import OtherService from "../../web/services/other.service"
+import botService from "../../bot/db/services/bot.service"
 import { spotifyAction } from "../on/actions/spotify.actions";
 import offerAction from "../on/actions/offers.action";
 import spotifyChoiceAction from "./spotify/spotify.choice.action";
@@ -114,6 +116,9 @@ export class Actions extends Action {
 					return;
 				case "data_gpt_1m":
 					const source = resolve("./bot/assets/spotify/gpt1m.jpg");
+					const data = OtherService.getMainData()
+					//await botService.sendTestPost("гуран ")
+					console.log("click" );
 					await ctx.telegram.editMessageMedia(
 								ctx.chat?.id,
 								message_id,
