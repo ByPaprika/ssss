@@ -14,7 +14,7 @@ export const offerKeyboard = [
 ];
 
 export const spotifyKeyboard = [
-	[Markup.button.callback("🤑⚡️ ChatGPT PLUS 1 месяц", "data_gpt_1m")],
+	[Markup.button.callback("⚡️ Spotify Premium 1 месяц", "data_gpt_1m")],
 	[Markup.button.callback("Spotify Premium 3 месяца", "data_spotify_3m")],
 	[Markup.button.callback("Spotify Premium 6 месяцев", "data_spotify_6m")],
 	[Markup.button.callback("Spotify Premium 12 месяцев", "data_spotify_12m")],
