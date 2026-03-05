@@ -20,7 +20,7 @@ scene.enter(async ctx => {
 	if (userPromocode !== undefined && typeof userPromocode !== "string") {
 		caption = `Введеный промокод: <b>${userPromocode.title} на ${userPromocode.discount}%</b> \n`;
 	}
-	caption += "Специальные предложения (акции) <b>не суммируются с промокодами</b> ❌\nЕсли что-то не получается, можете обратиться в тех поддержку -> @SpotiTime_ru_support\nДля того, чтобы выйти из меню с промокодом - нажмите кнопку 'Выйти'\n\nВведите промокод <b>сообщением:</b>";
+	caption += "Специальные предложения (акции) <b>не суммируются с промокодами</b> ❌\nЕсли что-то не получается, можете обратиться в тех поддержку -> @SpotiTime_help\nДля того, чтобы выйти из меню с промокодом - нажмите кнопку 'Выйти'\n\nВведите промокод <b>сообщением:</b>";
 
 	const { message_id } = await ctx.replyWithPhoto(
 		{ source },

@@ -1,8 +1,8 @@
 /** @format */
 
 // main
-export const supportLink = "https://t.me/SpotiTime_ru_support";
-export const supportNickname = "@SpotiTime_ru_support";
+export const supportLink = "https://t.me/SpotiTime_help";
+export const supportNickname = "@SpotiTime_support";
 
 export const reviewsLink = "https://t.me/SpotiTime_ru_reviews";
 export const reviewsNickname = "@SpotiTime_ru_reviews";
@@ -10,8 +10,8 @@ export const reviewsNickname = "@SpotiTime_ru_reviews";
 export const giveawaysLink = "https://t.me/SpotiTime_ru_giveaways";
 export const giveawaysNickname = "@SpotiTime_ru_reviews_giveaways";
 
-export const botLink = "https://t.me/SpotiTime_ru_bot";
-export const botNickname = "@SpotiTime_ru_bot";
+export const botLink = "https://t.me/SpotiTime_help";
+export const botNickname = "@SpotiTime_help";
 
 export const support_chat_id = "5762480244";
 export const offerLink = "https://telegra.ph/Publichnaya-oferta-03-27-4";
@@ -40,7 +40,7 @@ export const getGreetingCaption = (
 	`Привет, <b>${first_name}</b>\nМеня звать <b>SpotiTime Бот</b> 🤖\nЯ ваш личный бот и помощник в индустрии <b>Spotify</b>!\n\nЯ помогаю оформлять подписку на <b>Spotify</b>\nНесмотря на то, что коммерческие отношения с Россией ушли на второй план, благодаря мне, вы сможете приобрести любимый <b>Spotify</b>\n\nТакже у нас имеется группа с <b>отзывами</b>\nПерейти в группу с <b>отзывами</b> 👨‍👩‍👧‍👦 - ${reviews_link}\n\nЕсли у вас есть любые интересующие <b>вопросы</b>, вы всегда можете задать вопрос нашей <b>техподдержке</b>.\nВам моментально ответят - ${support_link}`;
 
 export const getSpotifyCaption = (support_link: string) =>
-	`😊 С нашей <b>Spotify</b> подпиской <b>VPN</b> не потребуется во всех приложениях Spotify\n❗️Если у вас нет аккаунта или вы не помните данных, мы <b>создадим</b> для вас новый или <b>восстановим</b> прошлый\n⏱️ Сроки выполнения: от <b>5</b> минут до <b>2</b> часов\n❗️ После оплаты c <b>Вами</b> сразу свяжется техподдержка - ${support_link}\n<b><i>❗️В случае, если не удается оплатить, отпишите в техподдержку, вам сразу помогут!</i> </b>`;
+	`😊 С нашей <b>Spotify</b> подпиской <b>VPN</b> не потребуется во всех приложениях Spotify\n❗️Если у вас нет аккаунта или вы не помните данных, мы <b>создадим</b> для вас новый или <b>восстановим</b> прошлый\n⏱️ Сроки выполнения: от <b>5</b> минут до <b>2</b> часов`;
 
 export const getSpotifyOpoCaption = (support_link: string) =>
 	`Spotify Premium на <b>2</b> аккаунта\n\n😊 С нашей <b>Spotify</b> подпиской <b>VPN</b> не потребуется во всех приложениях Spotify.\n❗️Если у вас нет аккаунта или вы не помните данных, мы <b>создадим</b> для вас новый или <b>восстановим</b> прошлый.\n⏱️ Сроки выполнения: от <b>5</b> минут до <b>2</b> часов.\n❗️ После оплаты c <b>Вами</b> сразу свяжется техподдержка - ${support_link}.\n<b><i>❗️В случае, если не удается оплатить, отпишите в техподдержку, вам сразу помогут!</i></b>`;

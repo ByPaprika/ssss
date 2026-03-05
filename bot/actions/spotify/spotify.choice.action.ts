@@ -34,7 +34,7 @@ const spotifyChoiceAction = async (
 		}
 
 		caption +=
-			"\n\nПосле оплаты c <b>Вами</b> сразу свяжется техподдержка - @SpotiTime_ru_support.";
+			"";
 		await ctx.telegram.editMessageMedia(
 			ctx.chat?.id,
 			message_id,
